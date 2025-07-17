@@ -98,10 +98,10 @@ class _DeepSeekPageState extends State<DeepSeekPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "LLM Chatbot",
-          style: TextStyle(color: Colors.white),
+          "Chatbot",
+          style: TextStyle(color: const Color.fromARGB(255, 88, 0, 0)),
         ),
-        backgroundColor: Colors.teal,
+        backgroundColor: const Color.fromARGB(255, 206, 124, 37),
         actions: [
           IconButton(
             onPressed: () {
@@ -111,7 +111,7 @@ class _DeepSeekPageState extends State<DeepSeekPage> {
             },
             icon: Icon(
               Icons.settings,
-              color: Colors.white,
+              color: const Color.fromARGB(255, 137, 136, 136),
             ),
             tooltip: 'Configurer l\'API',
           ),
@@ -122,7 +122,7 @@ class _DeepSeekPageState extends State<DeepSeekPage> {
             },
             icon: Icon(
               Icons.logout,
-              color: Colors.white,
+              color: const Color.fromARGB(255, 140, 140, 140),
             ),
             tooltip: 'Retour au dashboard',
           )
@@ -142,7 +142,7 @@ class _DeepSeekPageState extends State<DeepSeekPage> {
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 16,
-                      color: Colors.teal,
+                      color: const Color.fromARGB(255, 8, 9, 9),
                     ),
                   ),
                   SizedBox(height: 10),
@@ -174,7 +174,7 @@ class _DeepSeekPageState extends State<DeepSeekPage> {
                       });
                     },
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.teal,
+                      backgroundColor: const Color.fromARGB(255, 83, 34, 27),
                       foregroundColor: Colors.white,
                     ),
                     child: Text("Enregistrer et masquer"),

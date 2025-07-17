@@ -10,7 +10,7 @@ class DashboardPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Welcome to the LLM ChatBot App",
+          "Hello world start chatting with AI",
           style: TextStyle(color: Colors.black),
         ),
       ),
